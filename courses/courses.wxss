@@ -1,0 +1,41 @@
+/* miniprogram/pages/index/index.wxss */
+.flex-logo{
+  /* background-color:#f00; */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.flex-logo-title{
+  /* background-color:#f00; */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.flex-view-item{
+
+}
+.flex-view-item2{
+  /* background-color:#f00; */
+  border-style: solid;
+  box-shadow:0px 2px 4px 2px #DDDDDD;
+  border-width: 0rpx;
+}
+.navigator-hover {
+  color:blue;
+}
+
+
+.flex-view-content{
+  display:flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  border-style: solid;
+  box-shadow:0px 2px 4px 2px #DDDDDD;
+  border-width: 0rpx;
+}
+

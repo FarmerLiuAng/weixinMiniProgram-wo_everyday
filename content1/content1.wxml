@@ -1,0 +1,14 @@
+<!-- redirect.wxml -->
+<view style="text-align:center"> {{title}} </view>
+
+<view >
+    <button bindtap='navigateToMiniProgram'>
+    点击按钮打开其他小程序
+    </button>
+    
+ </view>
+
+ <navigator target = "miniProgram" app-id="wxcd10170e55a1f55d" path="subPackage/pages/searchResult/searchResult?source=&query=霸王别姬&key=&pos=&rfr=wx_home&vfrm=" open-type='navigate'>
+	<view>
+    123</view>
+</navigator>

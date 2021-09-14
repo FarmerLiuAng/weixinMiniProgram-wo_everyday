@@ -1,0 +1,26 @@
+<view class="title"> 
+  {{title}} 
+</view>
+<form catchsubmit="formSubmit">
+  <view class="flex-content">
+    <view class="image-block">
+      <!-- <image src="/images/学习.jpg" bindtap="chooseimage" style="width:500rpx;height:400rpx;maigin:auto"></image> -->
+      <!-- <button  bindtap="chooseimage">获取图片</button> -->
+     <view class="add">
+      <image src="{{tempFilePaths }}" bindtap="chooseimage" mode="aspecFill" style="width:500rpx;height:400rpx;"/>
+     </view>
+   
+    </view>
+    <view class="mood-block">
+      <textarea bindblur="bindTextAreaBlur" bindfocus='areafocus' placeholder="点击图片更换上传您的心情，并在这里写下您的想法" bindchange="bindXinqingChange" auto-height="{{auto_height}}" name="xinqing" value="{{xinqing}}" />
+    </view>
+    <view class="tijiao">
+      <view style=" border-block: 1px solid;">
+        <button  style="width:100%" type="primary" formType="submit">Submit</button> 
+      </view>
+       
+    </view>
+    
+  </view>
+</form>
+

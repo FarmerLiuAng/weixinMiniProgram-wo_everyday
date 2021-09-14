@@ -1,0 +1,20 @@
+<!--miniprogram/select/select.wxml-->
+<view class="button-sp-area">
+      <view class="flex-button">
+            <navigator url="/plan/plan?title=每天の计划 " hover-class="navigator-hover">
+                  <button type="primary" plain="true" open-type="getUserInfo">每天の计划</button>
+            </navigator>
+      </view>
+      <view class="flex-button">
+            <navigator url="/mood/mood?title=每天の心情" hover-class="navigator-hover">
+                  <button type="primary" plain="true">每天の心情</button>
+            </navigator>
+      </view>
+      <view class="flex-button">
+            <navigator url="/empty/empty?title=每天の空教室 " hover-class="navigator-hover">
+                  <button type="primary" plain="true">每天の空教室</button>
+            </navigator>
+           
+      </view>
+     
+</view>

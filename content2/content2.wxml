@@ -1,0 +1,46 @@
+<!--miniprogram/content2/content2.wxml-->
+
+<view style="text-align:center;font-weight:bold;font-size:large"> {{title}} </view>
+<view style="margin-top:30rpx">
+  <view class="img"><image src="{{image}}"></image></view>
+  <view class="intro">
+     
+  
+    </view>
+    <view style="font-weight:bold;font-size:medium"> 课程介绍</view>
+    <view class="intro">
+     
+       {{intro}}
+    </view>
+
+    <view class="Tname" style="text-align:left">
+      指导老师
+    </view>
+    <view class="teacher">
+      
+      <view class="teacher-member">
+        <view class="Tname">
+          {{teacher}}
+        </view>
+       
+        <view style="font-size:smaller">
+          <scroll-view scroll-y="true"  >
+          {{teacherIntro}}
+        </scroll-view>
+        </view>
+      </view>
+      <view class="bot">
+  
+</view>
+    </view>
+  
+      <view style="width=1000px">
+        <view  bindtap='copyText' data-text=" {{src}}">
+          <button class="weui-btn_cell weui-btn_cell-default" style="width:100%"  >点击复制网址到浏览器中打开学习 </button></view>
+        </view>
+ </view>
+ 
+
+
+
+

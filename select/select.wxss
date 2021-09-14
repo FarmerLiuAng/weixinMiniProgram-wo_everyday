@@ -1,0 +1,17 @@
+.button-sp-area{
+  /* display:flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* position: absolute;  */
+}
+.flex-button{
+ 
+  margin-top: 100px;
+  margin-bottom: 20px;
+}

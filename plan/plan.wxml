@@ -1,0 +1,136 @@
+<!--miniprogram/plan/plan.wxml-->
+<view class="title"> 
+  {{title}} 
+</view>
+
+<!-- <view class="biaoqian">
+  标签：
+</view> -->
+
+<view class="column-names"> 
+    <view style="margin-left:30px">
+      时间
+    </view> 
+    <view style="margin-left:100px">
+      计划
+    </view> 
+</view>
+
+<form catchsubmit="formSubmit">
+      <view class="item">
+        <view class="start">
+          <input name="start1" type="text"  value="{{start1}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end1" type="text"  value="{{end1}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan1" type="text"  value="{{content1}}"/>
+        </view>
+      </view>
+ 
+      <view class="item">
+        <view class="start">
+          <input name="start2" type="text" value="{{start2}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end2" type="text"  value="{{end2}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan2" type="text"  value="{{content2}}"/>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="start">
+          <input name="start3" type="text" value="{{start3}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end3" type="text"  value="{{end3}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan3" type="text"  value="{{content3}}"/>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="start">
+          <input name="start4" type="text" value="{{start4}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end4" type="text"  value="{{end4}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan4" type="text"  value="{{content4}}"/>
+        </view>
+      </view>
+      <view class="item">
+        <view class="start">
+          <input name="start5" type="text" value="{{start5}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end5" type="text"  value="{{end5}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan5" type="text"  value="{{content5}}"/>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="start">
+          <input name="start6" type="text" value="{{start6}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end6" type="text"  value="{{end6}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan6" type="text"  value="{{content6}}"/>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="start">
+          <input name="start7" type="text" value="{{start7}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end7" type="text"  value="{{end7}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan7" type="text"  value="{{content7}}"/>
+        </view>
+      </view>
+      <view class="item">
+        <view class="start">
+          <input name="start8" type="text" value="{{start8}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end8" type="text"  value="{{end8}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan8" type="text"  value="{{content8}}"/>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="start">
+          <input name="start9" type="text" value="{{start9}}"/>
+        </view>
+        -  
+        <view class="end">
+          <input name="end9" type="text"  value="{{end9}}"/>
+        </view>
+        <view class="plan">
+          <input name="plan9" type="text"  value="{{content9}}"/>
+        </view>
+      </view>
+  <button class="btn" type="primary" form-type="submit">保存计划</button>
+</form>
+

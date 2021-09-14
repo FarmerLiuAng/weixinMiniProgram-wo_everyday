@@ -1,0 +1,150 @@
+<!-- <view class="flex-logo-title">
+  <view class="flex-view-item">
+    <p>全部 </p>
+  </view>
+  <view class="flex-view-item">
+    <p>动作</p>
+  </view>
+  <view class="flex-view-item">
+    <p>喜剧</p>
+  </view>
+  <view class="flex-view-item">
+    <p>恐怖</p>
+  </view>
+  <view class="flex-view-item">
+    <p>悬疑 </p>
+  </view>
+</view>
+<view class="flex-logo-title">
+  <view class="flex-view-item">
+    <p>惊悚 </p>
+  </view>
+  <view class="flex-view-item">
+    <p>成长</p>
+  </view>
+  <view class="flex-view-item">
+    <p>爱情 </p>
+  </view>
+  <view class="flex-view-item">
+    <p>动画</p>
+  </view>
+  <view class="flex-view-item">
+    <p>科幻</p>
+  </view>
+</view> -->
+<view class="se">
+
+  <view class="title">
+    每天の电影
+  </view>
+  <view style="margin-bottom:10px"><image src="/images/movie.jpg"></image></view>
+    
+  <view class='page_row'>
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input  name="moviename" placeholder="请输入电影名称" style="width:260px" bindinput="inputmethod"/>
+      </view>
+    </view>
+    <view class='sousuo'>
+      <navigator url="{{url}}" hover-class="navigator-hover">搜索</navigator>
+    </view>   
+  </view>
+
+</view>
+<!-- <template name="movietemplate">
+  
+  <view class="flex_movie_content">
+    <view>
+      <image src="{{movieimage}}" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <navigator url="{{movieurl}}" hover-class="navigator-hover">
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </navigator>
+  </view>
+
+</template>
+<view class="flex_movie">
+  <template is="movietemplate"></template>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <navigator url="/movie-detail/movie-detail?title=霸王别姬" hover-class="navigator-hover">
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </navigator>
+  </view>
+
+
+
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view>
+  <view class="flex_movie_content">
+    <view>
+      <image src="/images/哆啦A梦.jpg" style="width:200rpx;height:240rpx"></image>
+    </view>
+    <view>
+      哆啦A梦2：伴我同行 9.0
+    </view>
+  </view> -->
+
+  
+<!-- </view> -->

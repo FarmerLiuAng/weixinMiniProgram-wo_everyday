@@ -1,0 +1,68 @@
+<!--miniprogram/pages/wode/wode.wxml-->
+<view class="all">
+  <view class="view-content">
+    <view class="flex-view-content-top"> 
+      <view class="flex-view-item1">
+        <open-data type="userAvatarUrl" style="width:100rpx;height:100rpx;"></open-data>
+        
+      </view>
+      <view class="flex-view-item"style=" margin: auto;">
+        <view style=" font-weight: bold;"> 
+          <open-data type="userNickName" lang="zh_CN"></open-data>
+        </view>
+      </view>  
+    </view>
+  </view>
+  <!-- <view class="adv">
+    <image src="" style="width:700rpx;height:300rpx"></image>
+  </view> -->
+  <view class="view-content-bottom">
+    <view class="flex-view-content" > 
+    <view class= "bottom_list">
+      <navigator url="/mood/mood?title=每天の心情" hover-class="navigator-hover">
+            <button class="btn" type="primary" plain="false">每天の心情</button>
+      </navigator>
+    </view>
+    </view>
+    <view class="flex-view-content"> 
+    <view  class= "bottom_list">
+      
+      <navigator url="/empty/empty?title=每天の空教室" hover-class="navigator-hover">
+            <button class="btn" type="primary" plain="false">每天の空教室</button>
+      </navigator>
+    </view>
+    </view>
+    <view class="flex-view-content"> 
+    <view  class= "bottom_list">
+      
+      <navigator url="/plan/plan?title=每天の计划" hover-class="navigator-hover">
+            <button class="btn" type="primary" plain="false">每天の计划</button>
+      </navigator>
+    </view>
+    </view>
+  
+    <!-- <view class="flex-view-content"> 
+    <view  class= "bottom_list">
+      <navigator url="courses/courses" hover-class="navigator-hover">
+            <button class="btn" type="primary" plain="false">每天の课程</button>
+      </navigator>
+    </view>
+    </view>
+
+    <view class="flex-view-content"> 
+    <view  class= "bottom_list">
+      <navigator url="movie/movie" hover-class="navigator-hover">
+            <button class="btn" type="primary" plain="false">每天の电影</button>
+      </navigator>
+    </view>
+    </view> -->
+    
+    
+  </view>
+
+    <view class="imgbot">    
+            <image src="/images/xinxin.png" style="width:250px" ></image>
+    </view>
+    
+
+</view>

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "select/select",
+    "content2/content2",
+    "pages/wode/wode",
+    "plan/plan",
+    "mood/mood",
+    "empty/empty",
+    "courses/courses",
+    "movie/movie",
+    "movie-detail/movie-detail"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/images/integral-outline.png",
+        "selectedIconPath": "/images/integral.png",
+        "pagePath": "select/select",
+        "text": "每天"
+      },
+      {
+        "iconPath": "/images/home-outline.png",
+        "selectedIconPath": "/images/home.png",
+        "pagePath": "courses/courses",
+        "text": "课程"
+      },
+      {
+        "iconPath": "/images/home-outline.png",
+        "selectedIconPath": "/images/home.png",
+        "pagePath": "movie/movie",
+        "text": "电影"
+      },
+      {
+        "iconPath": "/images/user-outline.png",
+        "selectedIconPath": "/images/user.png",
+        "pagePath": "pages/wode/wode",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "wo每天",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

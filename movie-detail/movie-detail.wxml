@@ -1,0 +1,53 @@
+<!--miniprogram/content2/content2.wxml-->
+
+
+<view style="text-align:left;font-weight:bold;font-size:large"> {{title}} </view>
+<view class="content">
+  <view class="intro">
+    <view>
+      <image src="{{movieposter}}" style="width:300rpx;height:340rpx"></image>
+    </view>
+    <view class="actors">
+      <view class="director"> 导演: {{director}}</view>
+      <view class="writer">编剧: {{writer}}</view>
+      <view class="actor"> 主演: {{actor}}</view>
+      <view class="type"> 类型: {{genre}} </view>
+      <view class="country"> 制片国家/地区: {{writer}} </view>
+      <view class="date">上映日期: {{year}} </view>
+      <view class="time">   片长: {{duration}} </view>  
+    </view>
+    <!-- <view class="rank"> 9.0 </view> -->
+  </view>
+  <view class="juqing">
+    <view>
+      {{description}}
+    </view>
+  </view>
+  <view class="choice">
+    <view class="choice1">
+      <button type="primary" plain="true" hover-class="button-hover">想看</button>
+    </view>
+    <view class="choice1">
+      <button type="primary" plain="true">看过</button>
+    </view>
+  </view>
+  <view class="starbox">          
+        <view class='itembox'>
+            <view wx:for="{{imgs}}" wx:key="{{item.id}}" bindtap='select' data-index="{{item.id}}">
+              <image class="star" src="{{item.id>starId?src2:src1}}"></image>
+            </view>
+            <view class='scorePin'>{{starId}}.00</view>
+        </view>
+  </view>
+  <view class="do">
+    <view class="doin">
+      <navigator target = "miniProgram" app-id="wxcd10170e55a1f55d" path="{{path}}" open-type='navigate'>      
+        <button type="default" plain="true">去爱奇艺观看
+</button>            
+        </navigator>
+    </view>
+  </view>
+</view>
+
+
+

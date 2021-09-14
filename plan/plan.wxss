@@ -1,0 +1,59 @@
+/* miniprogram/plan/plan.wxss */
+.title{
+  text-align: center;
+}
+
+.biaoqian{
+
+}
+
+
+
+.column-names{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid #cccccc; */
+}
+
+.item{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid #000000; */
+}
+
+.start{
+  width: 50px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.end{
+  width: 50px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.plan{
+  margin-left: 10px;
+  width: 280px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.btn{
+  width: 220px;
+  height: 60px;
+  line-height: 40px;
+  background-color: #7f7f7f ; 
+  color: #ffffff; 
+  border-radius: 50px;
+}

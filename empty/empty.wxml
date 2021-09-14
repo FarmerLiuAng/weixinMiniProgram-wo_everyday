@@ -1,0 +1,16 @@
+<view class="title"> 
+  {{title}} 
+</view>
+
+<view class="flex-content">
+  <view class="time">
+    <picker bindchange="bindPicker1Change" range="{{array1}}">
+      <view class="weui-select">  选择日期：{{array1[value1]}}</view>
+    </picker>
+ 
+  </view>
+  
+  <block wx:for="{{items}}" wx:key="index">
+    <view class='text-content'>{{item}}</view> 
+  </block>
+</view>

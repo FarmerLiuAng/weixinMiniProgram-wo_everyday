@@ -1,0 +1,39 @@
+textarea {
+  height:100px;
+}
+
+.add{
+  
+}
+.title{
+  text-align: center;
+}
+.flex-content{
+  display:flex;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.image-block{
+  border-block: 1px solid;
+  display:flex;
+ /* border: solid #ffffff; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mood-block{
+
+  padding: 0 25rpx;
+  background-color: #fff;
+  
+}
+
+.tijiao{
+  border-block: 1px solid;
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+}
